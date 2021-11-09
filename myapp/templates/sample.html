@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h5>cybersquare</h5>
-    <p>sjahdgwysgdfywegywefhwhsdhfhj</p>
-    <img class="img" src="{% static 'image/cs_logo.png' %}" alt="Error :image not found">
+    <form action="/sample/" method="POST">
+        {% csrf_token %}
+        <input type="text" name="n1">
+        <input type="text" name="n2">
+        <button type="submit">Signup</button>
+    </form>
 </body>
 </html>
 
