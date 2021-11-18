@@ -81,10 +81,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'facebook_db',
-        'USER': 'postgres',
-        'PASSWORD': '12345',
-        'HOST': 'localhost',
+        'NAME': 'dbb8iucu4ilqtd',
+        'USER': 'bosfmcyzvavjzn',
+        'PASSWORD': 'f70b9da1b9e54618bb5fe4af46578d6de9b04f746888d4294913a82681c1ffb4',
+        'HOST': 'ec2-34-200-161-87.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
